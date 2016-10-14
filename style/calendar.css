@@ -1,0 +1,145 @@
+.calendar{
+    padding: 100px 120px 50px 100px; align-items: center; 
+}
+.calendar iframe{
+    width: 100%; margin: 50px 0 0 0;
+}
+.st-dtitle-today {
+    background-color: #fad163;
+    border: 100px solid #fad163;
+}
+@media (min-width: 2560px){
+    .calendar{
+    padding: 100px 430px 50px 428px;
+    }
+}
+@media (max-width: 2200px){
+    .calendar{
+    padding: 100px 310px 50px 390px;
+    }
+}
+@media (max-width: 2100px){
+    .calendar{
+    padding: 100px 305px 50px 290px;
+    }
+}
+@media (max-width: 2025px){
+    .calendar{
+    padding: 100px 237px 50px 290px;
+    }
+}
+@media (max-width: 2000px){
+    .calendar{
+    padding: 100px 211px 50px 290px;
+    }
+}
+@media (max-width: 1980px){
+   .calendar{
+    padding: 100px 282px 50px 290px;
+    } 
+}
+@media (max-width: 1840px){
+    .calendar{
+    padding: 100px 170px 50px 170px;
+    } 
+}
+@media (max-width: 1750px){
+    .calendar{
+    padding: 100px 175px 50px 175px;
+    } 
+}
+@media (max-width: 1640px){ 
+    .calendar{
+    padding: 100px 120px 50px 120px;
+    } 
+}
+@media (max-width: 1577px){ 
+    .calendar{
+    padding: 100px 57px 50px 120px;
+    } 
+}
+@media (max-width: 1550px){
+    .calendar{
+    padding: 100px 175px 50px 175px;
+    } 
+}
+@media (max-width: 1440px){ 
+    .calendar{
+    padding: 100px 120px 50px 120px;
+    } 
+}
+@media (max-width: 1400px){
+    .calendar{
+    padding: 100px 100px 50px 100px;
+    } 
+}
+@media (max-width: 1350px){
+    .calendar{
+    padding: 100px 75px 50px 75px;
+    } 
+}
+@media (max-width: 1320px){
+    .calendar{
+    padding: 100px 80px 50px 80px;
+    } 
+}
+@media (max-width: 1280px){
+    .calendar{
+    padding: 100px 100px 50px 100px;
+    } 
+}
+@media (max-width: 1200px){
+    .calendar{
+    padding: 100px 100px 50px 100px;
+    } 
+}
+@media (max-width: 1150px){
+    .calendar{
+    padding: 100px 80px 50px 80px;
+    } 
+}
+@media (max-width: 1100px){
+    .calendar{
+    padding: 100px 100px 50px 100px;
+    } 
+}
+@media (max-width: 1024px){
+    .calendar{
+    padding: 100px 85px 50px 85px;
+    } 
+}
+@media (max-width: 980px){
+    .calendar{
+    padding: 100px 90px 50px 90px;
+    } 
+}
+@media (max-width: 800px){
+    .calendar{
+    padding: 100px 80px 50px 80px;
+    } 
+}
+@media (max-width: 768px){
+    .calendar{
+    padding: 100px 64px 50px 64px;
+    } 
+}
+@media (max-width: 700px){
+    .calendar{
+    padding: 100px 50px 50px 50px;
+    } 
+}
+@media (max-width: 650px){
+    .calendar{
+    padding: 100px 60px 50px 60px;
+    } 
+}
+@media (max-width: 580px){
+    .calendar{
+    padding: 100px 20px 50px 10px;
+    } 
+}
+@media (max-width: 470px){
+    .calendar{
+    padding: 100px 10px 50px 10px;
+    } 
+}

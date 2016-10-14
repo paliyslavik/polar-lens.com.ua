@@ -1,0 +1,2034 @@
+/**
+*підгрузка шрифтів
+**/
+@font-face {
+    font-family: Duke;
+    src: url(../fonts/Truetypewriter_PolyglOTT.ttf);
+}
+@font-face {
+    font-family: Academi;
+    src: url(../fonts/DS_VTCorona_Cyr.ttf);
+}
+@font-face {
+    font-family: Allur;
+    src: url(../fonts/Atavyros.otf);
+}
+@font-face {
+    font-family: Spike;
+    src: url(../fonts/BenguiatGothicCTT.ttf);
+}
+/**
+*головна сторінка верхній блок
+**/
+*{
+    margin: 0px; padding: 0px;
+}
+
+header{
+    position: relative;
+}
+header img{
+    width: 100%; height: 100%; z-index: 0;
+}
+    .main-bg{
+        width: 1200px; background: rgba(233, 234, 236, 0.7)!important; position: absolute;
+        margin: 0 100px 20px 100px; top: 8px; z-index: 2; border: 1px solid  rgba(233, 234, 236, 0.7); 
+        border-radius: 4px; 
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        overflow: hidden;
+    }
+    .main-slogon{
+        float: left; margin: 20px 20px 20px 35px; display: inline-block;
+    }
+        .main-slogon p{
+            font: 30px Academi,	Courier New;
+            margin-bottom: 10px;
+        }
+        .main-slogon span{
+            font: 25px Academi, Courier New; font-weight: 900; font-style: italic; color: #f5e15e; margin-left: 8px;
+        }
+    .main-text{
+        font: 20px Allur, Comic Sans MS; text-align: center;
+        margin: 20px 20px 20px 150px; display: inline-block;
+    }
+        .main-text p{
+            font: 25px Allur,Comic Sans MS; margin: 0 0 8px 0;
+        }    
+    .main-contact{
+        float: right; margin: 20px 35px 20px 20px; display: inline-block; overflow: hidden;
+    }
+        .main-contact p{
+            font: 19px Allur,Comic Sans MS; text-align: center; margin: 0 0 7px 0;
+        }  
+        .main-contact a{
+            font: 15px Allur,Comic Sans MS; vertical-align: middle; text-decoration: none; border: 2px solid #eddb5d; background: #eddb5d; 
+            border-radius: 45px; 
+            -moz-border-radius: 45px;
+            -webkit-border-radius: 45px;
+            border-width: 5px 25px 4px 25px; color: white; margin: 0 0 40px 0;
+        } 
+        .main-contact a:hover{
+            text-decoration: underline;
+        }  
+        .main-contact span{
+            font: 17px Allur,Comic Sans MS; margin:5px 0px 0px 10px;
+        }
+/**
+*головна сторінка нижній блок
+**/
+    .main-bg-bottom{
+        width: 1200px; background: rgba(233, 234, 236, 0.7)!important; position: absolute; margin: 0 100px 10px 100px; bottom: 0px; z-index: 2; border: 1px solid  rgba(233, 234, 236, 0.7);
+        border-radius: 4px; 
+        -moz-border-radius: 4px; 
+        -webkit-border-radius: 4px;
+        overflow: hidden; font: 23px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom img{
+        max-height: 80px; max-width: 80px; float: left; margin: -10px 20px 0 0;
+    }
+    .main-bot{
+        margin: 45px 0px 5px 0px;
+    }
+        .main-bot li{
+            list-style: none; display: inline-block; margin: 0 20px 0 0;
+        }
+        .main-bg-bottom li:first-child{
+            margin-left: 35px;
+        }  
+/**
+*Послуги
+**/
+.service{
+    position: relative; width: 100%; padding: 100px 0 0 0;
+    }
+    .left-hr{
+    width: 515px; float: left; border-bottom: 1px solid #c7c5c4; margin: 0 0 0 100px;
+    }
+    .right-hr{
+    width: 515px; float: right; border-bottom: 1px solid #c7c5c4; margin: 0 127px 0 0;
+    }
+    .slog{
+     font: 23px Allur,Comic Sans MS; position: absolute; margin: -13px 5px 0 10px; text-align: center;
+    }
+    .slog:hover{
+     color: #f5e15e; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1);
+    }
+    .service a{
+        text-decoration: none; color: black;
+    }
+    .service-image{
+    margin: 100px 100px 20px 90px; 
+    }
+        .service-image img{
+            margin: 0 20px 0 30px; 
+        }
+        .service-image figure{
+            display: inline-block;
+            opacity: 1;
+        }
+            .service-image figure figcaption{
+                text-align: center; margin: 10px 0 0 0; font: 23px Spike,Comic Sans MS; -moz-transition: all 1s ease-out;
+                -o-transition: all 1s ease-out;
+                -webkit-transition: all 1s ease-out;
+            }
+            .service-image figure figcaption:hover{
+                color: #f5e15e;-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1);
+            }
+            .service-image figure img{
+                filter: blur(2px); -webkit-filter: blur(2px);
+                -moz-transition: all 1s ease-out;
+                -o-transition: all 1s ease-out;
+                -webkit-transition: all 1s ease-out;
+            }
+            .service-image figure img:hover{
+                filter: blur(0px); -webkit-filter: blur(0px);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+
+/**
+*контакти
+**/
+.contact{
+    width: 100%; padding: 100px 0 0 0;
+    }
+    .contact span{
+    margin: -13px 5px 0 25px; 
+    }
+    .contact form{
+    margin: 100px 100px 0 100px;
+    } 
+ .inputText{
+       border: 1px solid #070707; background: #ffffff !important;
+       outline: none;  height: 40px; width: 280px;
+       color: #070707; font:18px Allur,Comic Sans MS; 
+       margin-right: 20px; padding:  10px; font-weight: 100;
+    }
+    textarea {
+       border: 1px solid #070707; background: #ffffff !important;
+       outline: none; height: 150px; width: 585px;
+       color: #070707; font:18px AAllur,Comic Sans MS;
+       padding:  10px; font-weight: 100;
+    }
+    input[type="submit"] {
+       border: 1px solid #070707; outline: none; 
+       height: 50px; width: 200px; color: white; background: #070707; font:18px Allur,Comic Sans MS; margin-top: 20px; padding:  10px; -moz-transition: all 1s ease-out; -o-transition: all 1s ease-out; -webkit-transition: all 1s ease-out;
+    }
+    input[type="submit"]:hover {
+        -webkit-transform: scale(1.1); -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    :-moz-placeholder {
+        color: #070707;
+        font-family: AAllur,Comic Sans MS;
+    }
+    ::-webkit-input-placeholder {
+        color: #070707;
+        font-family: AAllur,Comic Sans MS;
+        font-weight: bolder;
+    }
+    .color-block{
+        float: right;  margin-right: 117px;; margin-top: -430px;
+    }
+        .color-block img{
+            max-height: 500px; max-width: 500px;
+        }
+/**
+*Футер
+**/
+footer{
+    padding: 50px 0 0 0; width: 100%;
+    background: #c5c3c2; margin: 40px 0 0px 0; opacity: 0.8; position: absolute;
+    }
+    .footer-soc{
+    display: inline; margin: 0 0 0 43%;
+    }
+    .first{
+        max-height: 70px; max-width: 70px; margin-right: 10px;
+    }
+    .last{
+        max-height: 150px; max-width: 70px; margin: 0 0 13px 0;
+    }
+    footer h1{
+        text-align: center; font: 18px Allur,Comic Sans MS;margin: 10px 0 20px 0;
+    }
+
+@media (min-width: 2560px){
+    .main-bg {
+    margin: 50px 430px 0px; width: 1700px;
+    }
+    .main-slogon {
+    margin: 40px 40px 40px 55px;
+    }
+    .main-slogon p {
+    font: 44x Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 38px Academi,Courier New; margin-left: 5px;
+    }
+    .main-text {
+    font: 33px Allur,Comic Sans MS; margin: 40px 30px 30px 150px;
+    }
+    .main-text p {
+    font: 38px Allur,Comic Sans MS;
+    }
+    .main-contact {
+    margin: 40px 40px 20px 20px;
+    }
+    .main-contact p {
+    font: 25px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 22px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 24px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom {
+    font: 29px Allur,Comic Sans MS; margin: 100px 430px 50px; width: 1700px;
+    }
+    .main-bot {
+    margin: 90px 0px 30px 0px;
+    }
+    .main-bot li {
+    margin: 0 100px 0 0;
+    }
+    .main-bg-bottom img {
+    margin: -10px 38px 0 0; max-height: 80px; max-width: 80px;
+    }
+    .slog {
+    font: 35px Allur,Comic Sans MS; margin: -22px 5px 0 140px;
+    }
+    .left-hr {
+    border-bottom: 1px solid #c7c5c4; margin: 0 0 0 430px; width: 600px;
+    }
+    .right-hr {
+    border-bottom: 1px solid #c7c5c4; margin: 0 428px 0 0; width: 600px;
+    }
+    .service-image {
+    margin: 140px 20px 20px 585px;
+    }
+    .service-image img{
+    max-height: 550px; max-width: 550px;  margin: 0 53px 0 60px;
+    }
+    .service-image figure figcaption {
+    font: 25px Spike,Comic Sans MS;
+    }
+    .contact span {
+    margin: -21px 5px 0 150px ;
+    }
+    .contact form {
+    margin: 150px 430px 0;
+    }
+    .inputText {
+    width: 350px; height: 65px;
+    }
+    textarea {
+    width: 726px; height: 190px;
+    }
+    input[type="submit"] {
+    height: 75px;
+    width: 230px;
+    }
+    .color-block {
+    margin-right: 451px; margin-top: -470px;
+    }
+    .color-block img {
+    max-height: 850px; max-width: 850px;
+    }
+    footer h1 {
+    font: 24px Allur,Comic Sans MS; margin: 10px 0 30px;
+    }
+    .first {
+    margin-right: 20px; max-height: 100px; max-width: 100px;
+    }
+    .first {
+    margin-right: 20px;max-height: 100px;max-width: 100px;
+    }
+}
+
+@media (max-width: 2200px){
+    header img {
+    width: 100%; height: 100%;
+    }
+    .main-bg {
+    margin: 0 390px 20px; width: 1500px;
+    }
+    .main-slogon {
+    margin: 40px 40px 40px 55px;
+    }
+    .main-slogon p {
+    font: 40px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 33px Academi,Courier New;
+    margin-left: 5px;
+    }
+    .main-text {
+    font: 28px Allur,Comic Sans MS;
+    margin: 40px 30px 30px 150px;
+    }
+    .main-text p {
+    font: 29px Allur,Comic Sans MS;
+    }
+    .main-contact {
+    margin: 40px 40px 20px 20px;
+    }
+    .main-contact p {
+    font: 23px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 18px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 20px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom {
+    font: 25px Allur,Comic Sans MS; margin: 100px 390px 10px; width: 1500px;
+    }
+    .main-bot {
+    margin: 65px 0px 15px 0px;
+    }
+    .main-bot li {
+    margin: 0 80px 0 0;
+    }
+    .main-bg-bottom img {
+    margin: -10px 38px 0 0; max-height: 80px; max-width: 80px;
+    }
+    .slog {
+    font: 30px Allur,Comic Sans MS; margin: -19px 5px 0 90px;
+    }
+    .left-hr {
+    border-bottom: 2px solid #c7c5c4; margin: 0 0 0 390px; width: 565px;
+    }
+    .right-hr {
+    border-bottom: 2px solid #c7c5c4;margin: 0 308px 0 0;width: 565px;
+    }
+    .service-image {
+    margin: 130px 20px 20px 437px;
+    }
+    .service-image img{
+    max-height: 550px; max-width: 550px;  margin: 0 53px 0 60px;
+    }
+    .service-image figure figcaption {
+    font: 25px Spike,Comic Sans MS;
+    }
+    .contact span {
+    margin: -18px 5px 0 100px;
+    }
+    .contact form {
+    margin: 150px 390px 0;
+    }
+    .inputText {
+    width: 312px; height: 65px;
+    }
+    textarea {
+    width: 646px; height: 190px;
+    }
+    input[type="submit"] {
+    height: 60px;
+    width: 230px;
+    }
+    .color-block {
+    margin-right: 391px; margin-top: -450px;
+    }
+    .color-block img {
+    max-height: 650px; max-width: 650px;
+    }
+    footer h1 {
+    font: 24px Allur,Comic Sans MS; margin: 10px 0 30px;
+    }
+    .first {
+    margin-right: 20px; max-height: 100px; max-width: 100px;
+    }
+    .first {
+    margin-right: 20px;max-height: 100px;max-width: 100px;
+    }
+}
+@media (max-width: 2120px){
+    .right-hr {
+    margin: 0 229px 0 0;
+    }
+}
+@media (max-width: 2100px){
+    header img {
+    width: 100%; height: 100%;
+    }
+    .main-bg {
+    margin: 0 290px 20px; width: 1500px;
+    }
+    .main-slogon {
+    margin: 40px 40px 40px 55px;
+    }
+    .main-slogon p {
+    font: 40px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 33px Academi,Courier New;
+    margin-left: 5px;
+    }
+    .main-text {
+    font: 28px Allur,Comic Sans MS;
+    margin: 40px 30px 30px 150px;
+    }
+    main-text p {
+    font: 29px Allur,Comic Sans MS;
+    }
+    .main-contact {
+    margin: 40px 40px 20px 20px;
+    }
+    .main-contact p {
+    font: 23px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 18px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 20px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom {
+    font: 25px Allur,Comic Sans MS; margin: 100px 290px 10px; width: 1500px;
+    }
+    .main-bot {
+    margin: 65px 0px 15px 0px;
+    }
+    .main-bot li {
+    margin: 0 80px 0 0;
+    }
+    .main-bg-bottom img {
+    margin: -10px 38px 0 0; max-height: 80px; max-width: 80px;
+    }
+    .slog {
+    font: 30px Allur,Comic Sans MS; margin: -19px 5px 0 90px;
+    }
+    .left-hr {
+    border-bottom: 2px solid #c7c5c4; margin: 0 0 0 290px; width: 565px;
+    }
+    .right-hr {
+    border-bottom: 2px solid #c7c5c4;margin: 0 308px 0 0;width: 565px;
+    }
+    .service-image {
+    margin: 130px 290px 20px 337px;
+    }
+    .service-image img{
+    max-height: 550px; max-width: 550px;  margin: 0 53px 0 60px;
+    }
+    .service-image figure figcaption {
+    font: 25px Spike,Comic Sans MS;
+    }
+    .contact span {
+    margin: -18px 5px 0 100px;
+    }
+    .contact form {
+    margin: 150px 290px 0;
+    }
+    .inputText {
+    width: 312px;
+    }
+    textarea {
+    width: 646px;
+    }
+    input[type="submit"] {
+    height: 60px;
+    width: 230px;
+    }
+    .color-block {
+    margin-right: 391px; margin-top: -400px;
+    }
+    .color-block img {
+    max-height: 600px; max-width: 600px;
+    }
+    footer h1 {
+    font: 24px Allur,Comic Sans MS; margin: 10px 0 30px;
+    }
+    .first {
+    margin-right: 20px; max-height: 100px; max-width: 100px;
+    }
+    .first {
+    margin-right: 20px;max-height: 100px;max-width: 100px;
+    }
+}
+@media (max-width: 2020px){
+    .right-hr {
+    margin: 0 228px 0 0;
+    }
+}
+@media (max-width: 2025px){
+    .service-image img {
+    max-height: 550px; max-width: 550px; margin: 0 53px 0 40px;
+    }
+}
+@media (max-width: 2000px){
+    .service-image img {
+    max-height: 530px; max-width: 530px; margin: 0 53px 0 30px;
+    }
+}
+@media (max-width: 1980px){
+    header img {
+    width: 100%; height: 100%;
+    }
+    .main-bg {
+    margin: 0 290px 20px; width: 1400px;
+    }
+    .main-slogon {
+    margin: 40px 40px 40px 55px;
+    }
+    .main-slogon p {
+    font: 40px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 33px Academi,Courier New;
+    margin-left: 5px;
+    }
+    .main-text {
+    font: 28px Allur,Comic Sans MS;
+    margin: 40px 30px 30px 150px;
+    }
+    main-text p {
+    font: 29px Allur,Comic Sans MS;
+    }
+    .main-contact {
+    margin: 40px 40px 20px 20px;
+    }
+    .main-contact p {
+    font: 23px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 18px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 20px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom {
+    font: 25px Allur,Comic Sans MS; margin: 100px 290px 10px; width: 1400px;
+    }
+    .main-bot li {
+    margin: 0 60px 0 0;
+    }
+    .main-bg-bottom img {
+    margin: -10px 20px 0 0; max-height: 80px; max-width: 80px;
+    }
+    .slog {
+    font: 28px Allur,Comic Sans MS; margin: -18px 5px 0 49px;
+    }
+    .left-hr {
+    border-bottom: 2px solid #c7c5c4; margin: 0 0 0 290px; width: 565px;
+    }
+    .right-hr {
+    border-bottom: 2px solid #c7c5c4;margin: 0 290px 0 0;width: 565px;
+    }
+    .service-image {
+    margin: 130px 290px 20px 290px;
+    }
+    .service-image img{
+    max-height: 550px; max-width: 550px;  margin: 0 53px 0 60px;
+    }
+    .service-image figure figcaption {
+    font: 25px Spike,Comic Sans MS;
+    }
+    .contact span {
+    margin: -18px 5px 0 49px;
+    }
+    .contact form {
+    margin: 150px 290px 0;
+    }
+    .inputText {
+    width: 312px;
+    }
+    textarea {
+    width: 646px;
+    }
+    input[type="submit"] {
+    height: 60px;
+    width: 230px;
+    }
+    .color-block {
+    margin-right: 391px; margin-top: -450px;
+    }
+    .color-block img {
+    max-height: 600px; max-width: 600px;
+    }
+    footer h1 {
+    font: 24px Allur,Comic Sans MS; margin: 10px 0 30px;
+    }
+    .first {
+    margin-right: 20px; max-height: 100px; max-width: 100px;
+    }
+    .first {
+    margin-right: 20px;max-height: 100px;max-width: 100px;
+    }
+}
+@media (max-width: 1976px){
+    .service-image img {
+    max-height: 500px; max-width: 500px; margin: 0 53px 0 40px;
+    }
+    .service-image {
+    margin: 130px 100px 20px 322px;
+    }
+}
+@media (max-width: 1950px){
+    .right-hr {
+    margin: 0 260px 0 0;
+    }
+}
+@media (max-width: 1920px){
+    .right-hr {
+    margin: 0 227px 0 0;
+    }
+}
+@media (max-width: 1880px){
+    .right-hr {
+    margin: 0 191px 0 0;
+    }
+}
+@media (max-width: 1840px){ 
+    .main-bg {
+    margin: 0 170px 20px 170px; width: 1500px;
+    }
+    .main-text {
+    font: 22px Allur, Comic Sans MS; margin: 20px 20px 20px 244px;
+    }
+    .main-text p {
+    font: 27px Allur,Comic Sans MS;
+    }
+    .main-slogon p {
+    font: 33px Academi, Courier New;
+    }
+    .main-slogon span {
+    font: 27px Academi, Courier New;
+    }
+    .main-bot {
+    margin: 65px 0px 15px 0px;
+    }
+    .main-bot li {
+    margin: 0 65px 0 0;
+    }
+    .main-bg-bottom {
+    margin: 0 170px 30px 170px; width: 1500px; font: 28px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom img {
+    max-height: 80px; max-width: 80px;
+    }
+    .left-hr {
+    width: 605px; margin: 0 0 0 170px;
+    } 
+    .right-hr {
+    width: 605px; margin: 0 170px 0 0;
+    }
+    .slog {
+    font: 27px Allur,Comic Sans MS; margin: -14px 5px 0 60px;
+    }
+    .contact span {
+    margin: -16px 5px 0 75px;
+    }
+    .service-image {
+    margin: 100px 120px 20px 200px;
+    }
+    .service-image img {
+    max-height: 650px; max-width: 650px; margin: 0 40px 0 80px;
+    }
+    .service-image figure figcaption {
+    font: 27px Spike,Comic Sans MS;
+    }
+    .color-block img {
+    max-height: 500px; max-width: 500px;
+    }
+    .color-block {
+    margin-right: 237px; margin-top: -430px;
+    }
+    .contact form {
+    margin: 100px 170px 0 170px;
+    }
+    .contact {
+    padding: 100px 0 200px 0;
+    }
+    .service {
+    padding: 100px 0 200px 0;
+    }
+    .inputText {
+    height: 50px; width: 300px;
+    }
+    textarea {
+    height: 200px; width: 623px;
+    }
+    input[type="submit"] {
+    height: 60px;
+    width: 220px;
+    }
+}
+@media (max-width: 1780px){ 
+    .right-hr {
+    margin: 0 109px 0 0;
+    }
+}
+@media (max-width: 1750px){ 
+    .main-bg {
+    margin: 0 175px 20px 175px; width: 1400px;
+    }
+    .main-text {
+    font: 22px Allur, Comic Sans MS; margin: 30px 20px 20px 180px;
+    }
+    .main-contact {
+    margin: 30px 40px 20px 20px;
+    }
+    .main-bg-bottom {
+    margin: 0 175px 30px 175px; width: 1400px; font: 23px Allur,Comic Sans MS;
+    }
+    .left-hr {
+    margin: 0 0 0 175px; width: 560px;
+    }
+    .right-hr {
+    margin: 0 175px 0 0; width: 560px;
+    }
+    .slog {
+    margin: -14px 5px 0 50px;
+    }
+    .service-image img {
+    max-height: 400px; max-width: 400px; margin: 0 40px 0 25px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 250px;
+    }
+    .service-image figure figcaption {
+    font: 23px Spike,Comic Sans MS;
+    }
+    .contact form {
+    margin: 100px 175px 0 175px;
+    }
+}
+@media (max-width: 1700px){ 
+    .right-hr {
+    margin: 0 124px 0 0;
+    }
+}
+@media (max-width: 1640px){ 
+    .main-bg {
+    margin: 0 120px 20px 120px; width: 1400px;
+    }
+    .main-bg-bottom {
+    margin: 0 120px 10px 120px; width: 1400px;
+    }
+    .left-hr {
+    width: 575px; margin: 0 0 0 120px;
+    } 
+    .right-hr {
+    width: 575px; margin: 0 119px 0 0;
+    }
+    .slog {
+    font: 27px Allur,Comic Sans MS; 
+    }
+    .contact span {
+    margin: -16px 5px 0 55px;
+    }
+    .service-image {
+    margin: 100px 110px 20px 140px;
+    }
+    .service-image img {
+    max-height: 550px; max-width: 550px; margin: 0 40px 0 50px;
+    }
+    .color-block img {
+    max-height: 350px; max-width: 350px;
+    }
+    .color-block {
+    margin-right: 237px; margin-top: -380px;
+    }
+    .contact form {
+    margin: 100px 120px 0 120px;
+    }
+}
+@media (max-width: 1620px){
+    .right-hr {
+    margin: 0 99px 0 0;
+    }
+}
+@media (max-width: 1577px){ 
+    .service-image img {
+    max-height: 400px; max-width: 400px; margin: 0 40px 0 0px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 200px;
+    }
+    .slog {
+    margin: -14px 5px 0 5px;
+    }
+    .right-hr {
+    margin: 0 55px 0 0;
+    }
+}
+@media (max-width: 1550px){ 
+    .main-bg {
+    margin: 0 175px 20px 175px; width: 1200px;
+    }
+    .main-bg-bottom {
+    margin: 0 175px 20px 175px; width: 1200px; font: 21px Allur,Comic Sans MS;
+    }
+    .main-text p {
+    font: 23px Allur,Comic Sans MS;
+    }
+    .main-text {
+    font: 20px Allur, Comic Sans MS;
+    margin: 30px 20px 20px 100px;
+    }
+   .main-bot li {
+    margin: 0 5px 0 0;
+    }
+    .left-hr {
+    margin: 0 0 0 175px;  width: 485px;
+    }
+    .right-hr {
+    margin: 0 175px 0 0; width: 485px;
+    }
+    .slog {
+    font: 24px Allur,Comic Sans MS; margin: -12px 5px 0 34px;
+    }
+    .service-image img {
+    max-height: 350px; max-width: 350px; margin: 0 40px 0 0px;
+    }
+    .service-image {
+    margin: 100px 0px 20px 200px;
+    }
+    .contact form {
+    margin: 100px 175px 0 175px;
+    }
+    .color-block {
+    margin-top: -428px;
+    }
+}
+@media (max-width: 1480px){
+.right-hr {
+    margin: 0 102px 0 0;
+}
+}
+@media (max-width: 1440px){ 
+    .main-bg {
+    margin: 0 120px 20px 120px; width: 1200px;
+    }
+    .main-bg-bottom {
+    margin: 0 120px 10px 120px; width: 1200px;
+    }
+    .left-hr {
+    margin: 0 0 0 120px;  width: 485px;
+    }
+    .right-hr {
+    margin: 0 118px 0 0; width: 485px;
+    }
+    .service-image {
+    margin: 100px 100px 20px 155px;
+    }
+    .service-image img {
+    max-height: 300px; max-width: 300px; margin: 0 23px 0 38px;
+    }
+    .color-block img {
+    max-height: 350px; max-width: 350px;
+    }
+    .color-block {
+    margin-right: 157px; margin-top: -420px;
+    }
+    .slog {
+    font: 22px Allur,Comic Sans MS; margin: -12px 5px 0 40px;
+    }
+    .contact form {
+    margin: 100px 120px 0 120px;
+    }
+    .contact span {
+    margin: -11px 5px 0 55px;
+    }
+}
+
+@media (max-width: 1400px){
+    .main-bg-bottom {
+    margin: 0 100px 10px 100px;
+    }
+    .main-bg {
+    margin: 0 100px 20px 100px;
+    }
+    .left-hr {
+    margin: 0 0 0 100px;
+    }
+    .right-hr {
+    margin: 0 98px 0 0;
+    }
+    .service-image img {
+    max-height: 300px; max-width: 300px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 170px;
+    }
+    .contact form {
+    margin: 100px 100px 0 100px;
+    }
+}
+@media (max-width: 1380px){
+.right-hr {
+    margin: 0 77px 0 0;
+}
+}
+@media (max-width: 1350px){
+    .main-bg {
+    margin: 0 75px 20px 75px;
+    }
+    .main-bg-bottom {
+    margin: 0 75px 10px 75px;
+    }
+    .left-hr {
+    margin: 0 0 0 75px;
+    }
+    .right-hr {
+    margin: 0 73px 0 0;
+    }
+    .service-image {
+    margin: 100px 10px 20px 120px;
+    }
+    .contact form {
+    margin: 100px 75px 0 75px;
+    }
+}
+
+@media (max-width: 1320px){
+    .main-bg {
+    width: 1150px; margin: 0 80px 20px 80px;
+    }
+    .main-bg-bottom {
+    width: 1150px; margin: 0 80px 20px 80px;
+    }
+    .left-hr {
+    margin: 0 0 0 80px;
+    }
+    .slog {
+    margin: -12px 5px 0 10px;
+    }
+    .right-hr {
+    margin: 0 88px 0 0;
+    }
+    .service-image {
+    margin: 100px 10px 20px 100px;
+    }
+    .service-image figure figcaption {
+    font: 19px Spike,Comic Sans MS;
+    }
+    .contact span {
+    margin: -11px 5px 0 30px;
+    }
+    .contact form {
+    margin: 100px 80px 0 80px;
+    }
+}
+@media (max-width: 1300px){
+.right-hr {
+    margin: 0 79px 0 0;
+}
+}
+@media (max-width: 1285px){
+.right-hr {
+    margin: 0 49px 0 0;
+}
+}
+@media (max-width: 1280px){ 
+    .main-bg {
+    width: 1080px; margin: 0 100px 20px 100px;
+    }
+    .main-bg-bottom {
+    width: 1080px; margin: 0 100px 20px 100px; font: 18px Allur,Comic Sans MS;
+    }
+    .main-slogon p {
+    font: 24px Academi, Courier New;
+    }
+    .main-slogon span {
+    font: 20px Academi, Courier New;
+    }
+    .main-text {
+    font: 17px Allur, Comic Sans MS; margin: 30px 20px 20px 70px;
+    }
+    .main-text p {
+    font: 20px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 18px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 16px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 17px Allur,Comic Sans MS;
+    }
+    .main-bg-bottom img {
+    max-height: 60px; max-width: 60px;
+    }
+    .left-hr {
+    margin: 0 0 0 100px; width: 440px;
+    }
+    .right-hr {
+    margin: 0 100px 0 0; width: 440px;
+    }
+    .slog {
+    margin: -12px 5px 0 24px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 85px;
+    }
+    .contact span {
+    margin: -11px 5px 0 34px;
+    }
+    .contact form {
+    margin: 100px 100px 0 100px;
+    }
+    .color-block {
+    margin-right: 87px; margin-top: -420px;
+    }
+}
+@media (max-width: 1250px){
+.right-hr {
+    margin: 0 69px 0 0;
+    width: 440px;
+}
+}
+@media (max-width: 1225px){
+.right-hr {
+    margin: 0px 41px 0 0;
+    width: 440px;
+}
+}
+@media (max-width: 1200px){
+    .main-bg {
+    width: 1000px;margin: 0 100px 20px 100px;
+    }
+    .main-bg-bottom {
+    width: 1000px;margin: 0 100px 20px 100px;font: 18px Allur,Comic Sans MS;
+    }
+    .left-hr {
+    margin: 0 0 0 100px; width: 400px;
+    }
+    .right-hr {
+    margin: 0 97px 0 0; width: 403px;
+    }   
+    .service-image img {
+    max-height: 250px; max-width: 250px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 125px;
+    }   
+    footer h1 {
+    font: 18px Allur,Comic Sans MS; margin: 10px 0 30px;
+    }
+    .first {
+    margin-right: 20px; max-height: 80px; max-width: 80px;
+    }
+    .footer-soc {
+    margin: 0 0 0 40%;    
+    }
+    footer {
+    padding: 30px 0 0 0;
+    }
+}
+
+@media (max-width: 1150px){
+    .main-bg {
+    width: 990px; margin: 0 80px 20px 80px;
+    }
+    .main-bg-bottom {
+    width: 990px; margin: 0 80px 20px 80px;
+    }
+    .left-hr {
+    margin: 0 0 0 80px; width: 400px;
+    } 
+    .right-hr {
+    margin: 0 77px 0 0; width: 403px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 105px;
+    }
+    .contact form {
+    margin: 100px 80px 0 80px;
+    }
+    .inputText {
+    height: 45px; width: 250px;
+    }
+    textarea {
+    height: 180px; width: 523px;    
+    }
+}
+@media (max-width: 1130px){
+.right-hr {
+    margin: 0 55px 0 0;
+    width: 403px;
+}
+}
+@media (max-width: 1110px){
+.right-hr {
+    margin: 0 35px 0 0;
+    width: 403px;
+}
+}
+@media (max-width: 1100px){
+    .main-bg {
+    width: 900px; margin: 0 100px 20px 100px;
+    }
+    .main-bg-bottom {
+    width: 900px; margin: 0 100px 20px 100px; font: 15.5px Allur,Comic Sans MS;
+    }
+    .main-text {
+    font: 15px Allur, Comic Sans MS; margin: 30px 20px 20px 50px;
+    }
+    .main-slogon {
+    margin: 33px 20px 30px 55px;
+    }
+    .main-text p {
+    font: 18px Allur,Comic Sans MS;    
+    }
+    .main-contact p {
+    font: 16px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 13px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 15px Allur,Comic Sans MS;
+    }
+    .main-bot {
+    margin: 38px 0px 15px 0px;
+    }
+    .left-hr {
+    margin: 0 0 0 100px; border-bottom: 1px solid #c7c5c4; width: 350px;
+    }
+    .right-hr {
+    border-bottom: 1px solid #c7c5c4; width: 350px; margin: 0 97px 0 0;
+    }
+    .slog {
+    font: 19px Allur,Comic Sans MS; margin: -12px 5px 0 34px;
+    }
+    .service-image img {
+    max-height: 230px; max-width: 230px; margin: 0 23px 0 18px;
+    }   
+    .service-image {
+    margin: 100px 10px 20px 140px;
+    }
+    .contact span {
+    margin: -11px 5px 0 44px;
+    }
+    .contact form {
+    margin: 100px 100px 0 100px;
+    }
+    .color-block img {
+    max-height: 300px; max-width: 300px;
+    }
+    .color-block {
+    margin-right: 87px; margin-top: -390px;
+    }
+    input[type="submit"] {
+    height: 50px; width: 200px;
+    }
+}
+@media (max-width: 1060px){
+.right-hr {
+    border-bottom: 1px solid #c7c5c4;
+    width: 350px;
+    margin: 0 57px 0 0;
+}
+}
+@media (max-width: 1024px){
+    .main-bg {
+    margin: 0 85px 20px; width: 850px;
+    }
+    .main-slogon {
+    margin: 33px 20px 30px 25px;
+    }
+    .main-slogon p {
+    font: 21px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 18px Academi,Courier New; margin-left: 2px;
+    }
+    .main-text {
+    font: 15px Allur,Comic Sans MS; margin: 30px 20px 20px 20px;
+    }
+    .main-text p {
+    font: 20px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 14px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 12px Allur,Comic Sans MS; margin: 0 0 20px;
+    }
+    .main-contact span {
+    font: 14px Allur,Comic Sans MS; margin:5px 0 0 13px;
+    }
+    .main-bg-bottom {
+    font: 16px Allur,Comic Sans MS; margin: 0 85px 10px; width: 850px;
+    }
+    .main-bg-bottom img {
+    margin: -10px 20px 0 0;max-height: 65px; max-width: 65px;
+    }
+    .main-bg-bottom li:first-child {
+    margin-left: 15px;
+    }
+    .slog {
+    font: 20px Allur,Comic Sans MS; margin: -11px 5px 0 19px;
+    }
+    .left-hr {
+    margin: 0 0 0 85px; width: 325px;
+    }
+    .right-hr {
+    margin: 0 88px 0 0; width: 325px;
+    }
+    .service-image img {
+    margin: 0 13px 0 30px; max-height: 210px; max-width: 210px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 120px;
+    }
+    .service-image figure figcaption {
+    font: 16px Spike,Comic Sans MS;
+    }
+    .inputText {
+    width: 200px; font:16px AAllur,Comic Sans MS;
+    }
+    textarea {
+    width: 424px;font:16px AAllur,Comic Sans MS;
+    }
+    .color-block img {
+    max-height: 300px; max-width: 300px;
+    }
+    .color-block {
+    margin-right: 90px; margin-top: -350px;
+    }
+    footer h1 {
+    font: 16px Allur,Comic Sans MS;
+    }
+    .first {
+    margin-left: -20px; margin-right: 25px; max-height: 60px; max-width: 60px;
+    }
+    .last {
+    margin: 0 0 10px -10px; max-height: 150px; max-width: 80px;
+    }
+    .contact form {
+    margin: 100px 85px 0 85px;
+    }
+}
+
+@media (max-width: 980px){
+    .main-bg {
+    margin: 0 90px 20px; width: 800px;
+    }
+    .main-slogon p {
+    font: 20px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 16px Academi,Courier New; margin-left: 2px;
+    }
+    .main-text {
+    font: 15px Allur,Comic Sans MS; margin:33px 20px 20px 50px;
+    }
+    .main-text p {
+    font: 17px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 14px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 12px Allur,Comic Sans MS; margin: 0 0 20px;
+    }
+    .main-contact span {
+    font: 14px Allur,Comic Sans MS; margin: 5px 0 0 13px;
+    }
+    .main-bg-bottom {
+    font: 14px Allur,Comic Sans MS; margin: 0 90px 10px; width: 800px;
+    }
+    .main-bg-bottom img {
+    margin: -10px 20px 0 0;max-height: 65px; max-width: 65px;
+    }
+    .main-bg-bottom li:first-child {
+    margin-left: 15px;
+    }
+    .slog {
+    font: 17px Allur,Comic Sans MS; margin: -10px 5px 0 41px;
+    }
+    .left-hr {
+    margin: 0 0 0 90px; width: 305px;
+    }
+    .right-hr {
+    margin: 0 87px 0 0; width: 305px;
+    }
+    .service-image {
+    margin: 100px 10px 20px 155px;
+    }
+    .service-image img {
+    margin: 0 13px 0 10px; max-height: 200px; max-width: 200px;
+    }
+    .service-image figure figcaption {
+    font: 15px Spike,Comic Sans MS;
+    }
+    .service {
+    padding: 100px 0 40px 0;
+    }
+    .inputText {
+    width: 170px; height: 40px;
+    }
+    textarea {
+    width: 364px; height: 150px;
+    }
+    .contact form {
+    margin: 100px 85px 0 90px;
+    }
+    .color-block img {
+    max-height: 300px; max-width: 300px;
+    }
+    .color-block {
+    margin-right: 90px; margin-top: -360px;
+    }
+    footer h1 {
+    font: 16px Allur,Comic Sans MS;
+    }
+    .first {
+    margin-left: -20px; margin-right: 25px; max-height: 60px; max-width: 60px;
+    }
+    .last {
+    margin: 0 0 10px -10px; max-height: 150px; max-width: 80px;
+    }
+}
+@media (max-width: 950px){
+.right-hr {
+    margin: 0 58px 0 0;
+    width: 305px;
+}
+}
+@media (max-width: 910px){
+.right-hr {
+    margin: 0 25px 0 0;
+    width: 305px;
+}
+}
+@media (max-width: 900px){
+    .main-bg {
+    margin: 0 90px 20px; width: 720px;
+    }
+    .main-slogon p {
+    font: 20px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 17px Academi,Courier New; margin-left: -2px;
+    }
+    .main-slogon {
+    margin: 20px 20px 20px 18px;
+    }
+    .main-text {
+    font: 13px Allur,Comic Sans MS; margin: 20px 0 20px 20px;
+    }
+    .main-text p {
+    font: 17px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 13px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 11px Allur,Comic Sans MS; margin: 0 0 20px;
+    }
+    .main-contact span {
+    font: 13px Allur,Comic Sans MS; margin: 5px 0 0 13px;
+    }
+    .main-contact {
+    margin: 20px 18px 20px 20px;
+    }
+    .main-bg-bottom {
+    font: 13px Allur,Comic Sans MS; margin: 10px 90px 10px 90px; width: 720px;
+    }
+    .main-bg-bottom img {
+    margin: -10px 17px 0 0; max-height: 50px;max-width: 50px;
+    }
+    .left-hr {
+    margin: 0 0 0 90px; width: 280px;
+    }
+    .right-hr {
+    margin: 0 92px 0 0; width: 280px;
+    }
+    .slog {
+    margin: -11px 5px 0 15px;
+    }
+    .service-image img {
+    margin: 0 10px 0 10px; max-height: 180px; max-width: 180px;
+    }
+    .contact span {
+    margin: -11px 5px 0 34px;
+    }
+    .service-image figure figcaption {
+    font: 17px Spike,Comic Sans MS;
+    }
+    .contact form {
+    margin: 82px 90px 0;
+    }
+    .inputText {
+    width: 170px; height: 35px; font: 100 16px Allur,Comic Sans MS;
+    }
+    textarea {
+    width: 364px; font: 100 15px AAllur,Comic Sans MS; height: 130px;
+    }
+    .color-block img {
+    max-height: 250px; max-width: 250px;
+    }
+    .color-block {
+    margin-right: 85px; margin-top: -314px;
+    }
+    footer {
+    margin: 30px 0 0; padding: 40px 0 0;
+    }
+    .first {
+    margin-left: -35px; margin-right: 45px; max-height: 50px; max-width: 50px;
+    }
+    .last {
+    margin: 2px 0 10px -30px; max-width: 65px;
+    }
+    input[type="submit"] {
+    height: 50px;
+    width: 160px;
+    }
+}
+@media (max-width: 870px){
+.right-hr {
+    margin: 0 60px 0 0;
+    width: 280px;
+}
+}
+@media (max-width: 840px){
+.right-hr {
+    margin: 0 30px 0 0;
+    width: 280px;
+}
+}
+@media (max-width: 810px){
+.right-hr {
+    margin: 0 15px 0 0;
+    width: 280px;
+}
+}
+@media (max-width: 800px){
+    .main-bg {
+    margin: 0 80px 20px; width: 640px;
+    }
+    .main-slogon p {
+    font: 17px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 14px Academi,Courier New; margin-left: 3px;
+    }
+    .main-slogon {
+    margin: 20px 20px 20px 10px;
+    }
+    .main-text {
+    font: 13px Allur,Comic Sans MS; margin: 20px 0 20px 20px;
+    }
+    .main-text p {
+    font: 14px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 13px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 11px Allur,Comic Sans MS; margin: 0 0 20px;
+    }
+    .main-contact span {
+    font: 13px Allur,Comic Sans MS; margin: 5px 0 0 13px;
+    }
+    .main-contact {
+    margin: 20px 18px 20px 20px;
+    }
+    .main-bg-bottom {
+    font: 11px Allur,Comic Sans MS; margin: 10px 85px 10px 82px; width: 640px;
+    }
+    .main-bg-bottom img {
+    margin: -10px 17px 0 0; max-height: 50px;max-width: 50px;
+    }
+    .left-hr {
+    margin: 0 0 0 80px; width: 240px;
+    }
+    .right-hr {
+    margin: 0 76px 0 0; width: 240px;
+    }
+    .slog {
+    margin: -11px 5px 0 15px;
+    }
+    .service-image img {
+    margin: 0 10px 0 10px; max-height: 150px; max-width: 150px;
+    }
+    .service-image figure figcaption {
+    font: 14px Spike,Comic Sans MS;
+    }
+    .service-image {
+    margin: 100px 10px 20px 142px;
+    }
+    .contact form {
+    margin: 82px 85px 0;
+    }
+    .inputText {
+    width: 170px; height: 35px; font: 100 16px Allur,Comic Sans MS;
+    }
+    textarea {
+    width: 364px; font: 100 15px AAllur,Comic Sans MS; height: 130px;
+    }
+    .color-block img {
+    max-height: 250px; max-width: 250px;
+    }
+    .color-block {
+    margin-right: 55px; margin-top: -320px;
+    }
+    footer {
+    margin: 30px 0 0; padding: 40px 0 0;
+    }
+    .first {
+    margin-left: -35px; margin-right: 45px; max-height: 50px; max-width: 50px;
+    }
+    .last {
+    margin: 2px 0 10px -30px; max-width: 65px;
+    }
+    input[type="submit"] {
+    height: 50px;
+    width: 160px;
+    }
+}
+
+@media (max-width: 768px){
+    .main-bg {
+    margin: 0 64px 20px; width: 620px;
+    }
+    .main-slogon p {
+    font: 16px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 15px Academi,Courier New; margin-left: -2px;
+    }
+    .main-slogon {
+    margin: 20px 20px 20px 18px;
+    }
+    .main-text {
+    font: 11px Allur,Comic Sans MS; margin: 20px 0 20px 20px;
+    }
+    .main-text p {
+    font: 14px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 11px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 9px Allur,Comic Sans MS; margin: 0 0 20px;
+    }
+    .main-contact span {
+    font: 11px Allur,Comic Sans MS; margin: 5px 0 0 13px;
+    }
+    .main-contact {
+    margin: 20px 18px 20px 20px;
+    }
+    .main-bg-bottom {
+    font: 10px Allur,Comic Sans MS; margin: 10px 64px 10px 64px; width: 620px;
+    }
+    .main-bg-bottom img {
+    margin: -10px 17px 0 0; max-height: 50px;max-width: 50px;
+    }
+    .left-hr {
+    margin: 0 0 0 64px; width: 220px;
+    }
+    .contact form {
+    margin: 82px 23.5px 0;
+    }
+    .inputText {
+    width: 150px; height: 35px; font: 100 12px Allur,Comic Sans MS;
+    }
+    textarea {
+    width: 324px; font: 100 12px AAllur,Comic Sans MS; height: 100px;
+    }
+    .color-block img {
+    max-height: 250px; max-width: 250px;
+    }
+    .color-block {
+    margin-right: 75px; margin-top: -300px;
+    }
+    footer {
+    margin: 30px 0 0; padding: 40px 0 0;
+    }
+    .first {
+    margin-left: -35px; margin-right: 45px; max-height: 50px; max-width: 50px;
+    }
+    .last {
+    margin: 2px 0 10px -30px; max-width: 65px;
+    }
+    .right-hr {
+    margin: 0 84px 0 0;
+    }
+    .slog {
+    margin: -12px 5px 0 15px;
+    }
+    .service-image img {
+    margin: 0 10px 0 5px; max-height: 145px; max-width: 145px;
+    }
+    .service-image figure figcaption {
+    font: 12px Spike,Comic Sans MS;
+    }
+    .service-image {
+    margin: 100px 10px 20px 125px;
+    }
+    .contact form {
+    margin: 82px 64px 0;
+    }
+    input[type="submit"] {
+    height: 50px; width: 160px; font: 100 12px AAllur,Comic Sans MS;
+    }
+}  
+@media (max-width: 740px){
+.right-hr {
+    margin: 0 55px 0 0;
+}
+}
+@media (max-width: 710px){
+.right-hr {
+    margin: 0 26px 0 0;
+}
+}
+@media (max-width: 700px){
+    .main-bg {
+    margin: 0 50px 20px; width: 600px;
+    }
+    .main-bg-bottom {
+    font: 10px Allur,Comic Sans MS; margin: 10px 50px 10px 50px; width: 600px;
+    }
+    .main-text {
+    font: 11px Allur,Comic Sans MS; margin: 20px 0 20px 10px;
+    }
+    .main-bot {
+    margin: 28px 0px 5px 0px;
+    }
+    .left-hr {
+    margin: 0 0 0 50px; width: 210px;
+    }
+    .right-hr {
+    margin: 0 48px 0 0;
+    }
+    .service-image {
+    margin: 100px 10px 20px 107px;
+    }
+    .contact form {
+    margin: 82px 50px 0;
+    }
+}
+@media (max-width: 680px){
+.right-hr {
+    margin: 0 28px 0 0;
+}
+}
+@media (max-width: 650px){
+    .main-bg {
+    margin: 0 60px 20px; width: 500px;
+    }
+    .main-bg-bottom {
+    font: 8.5px Allur,Comic Sans MS; margin: 10px 60px 10px 60px; width: 500px;
+    }
+    .main-bg-bottom li:first-child {
+    margin-left: 7px;
+    }
+    .main-bot {
+    margin: 24px 0px 5px 0px;
+    }
+    .main-slogon p {
+    font: 14px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 12px Academi,Courier New;
+    }
+    .main-text p {
+    font: 12px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 10px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 7px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 9px Allur,Comic Sans MS;
+    }
+    .main-text {
+    font: 11px Allur,Comic Sans MS; margin: 20px 0 0px 4px;
+    }
+    .main-contact {
+    margin: 20px 11px 20px 0px;
+    }
+    .left-hr {
+    margin: 0 0 0 60px; width: 180px;
+    }
+    .slog {
+    font: 13px Allur,Comic Sans MS; margin: -6px 5px 0 20px;
+    }
+    .right-hr {
+    margin: 0 88px 0 0; width: 180px;
+    }
+    .service-image img {
+    margin: 0 10px 0 5px; max-height: 105px; max-width: 105px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 131px;
+    }
+    .contact {
+    padding: 50px 0 50px 0;
+    }
+    .inputText {
+    width: 100px; height: 27px; font: 100 8px Allur,Comic Sans MS;
+    }
+    textarea {
+    width: 225px; font: 100 8px AAllur,Comic Sans MS; height: 80px;
+    }
+    input[type="submit"] {
+    height: 35px;
+    width: 110px;
+    font: 100 9px AAllur,Comic Sans MS;
+    }
+    .contact form {
+    margin: 82px 60px 0;
+    }
+    .color-block img {
+    max-height: 170px; max-width: 170px;
+    }
+    .color-block {
+    margin-right: 83px; margin-top: -230px;
+    }
+}
+@media (max-width: 620px){
+.right-hr {
+    margin: 0 58px 0 0;
+    width: 180px;
+}
+}
+@media (max-width: 580px){
+    .main-bg {
+    width: 95%; margin: 5px 10px 0 10px;
+    }
+    .main-bg-bottom {
+    font: 9px Allur,Comic Sans MS; margin: 10px 10px 10px 10px; width: 95%;
+    }
+    .main-text {
+    font: 11px Allur,Comic Sans MS; margin: 20px 0 0px 24px;
+    }
+    .left-hr {
+    margin: 0 0 0 10px; width: 200px;
+    }
+    .right-hr {
+    margin: 0 19px 0 0; width: 200px;
+    }
+    .slog {
+    font: 13px Allur,Comic Sans MS; margin: -7px 5px 0 30px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 100px;
+    }
+    footer h1 {
+    font: 11px Allur,Comic Sans MS;
+    }
+    .first {
+    margin-left: -35px; margin-right: 45px; max-height: 40px; max-width: 40px;
+    }
+    .last {
+    margin: 2px 0 5px -31px; max-width: 53px;
+    }
+}
+
+@media (max-width: 550px){
+    .main-bg-bottom {
+        display: none;
+    }
+    .main-text {
+    font: 11px Allur,Comic Sans MS; margin: 20px 0 0px 0px;
+    }
+    header img {
+    width: 100%; height: 391px;;
+    }
+    .right-hr {
+    margin: 0 19px 0 0; width: 180px;
+    }
+    .left-hr {
+    margin: 0 0 0 10px; width: 180px;
+    }
+    .contact form {
+    margin: 82px 10px 0;
+    }
+    .color-block {
+    margin-right: 40px; margin-top: -230px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 74px;
+    }
+}
+@media (max-width: 510px){
+    .main-text p {
+    font: 10px Allur,Comic Sans MS;
+    }
+    .main-text {
+    font: 9px Allur,Comic Sans MS;
+    }
+    .slog {
+    font: 13px Allur,Comic Sans MS; margin: -7px 5px 0 10px;
+    }
+    .contact span {
+    margin: -7px 5px 0 20px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 64px;
+    }
+    header img {
+    height: 360px;
+    }
+}
+
+@media (max-width: 470px){
+    .main-slogon {
+    margin: 20px 16px 10px 5px;
+    }
+    .main-contact {
+    margin: 20px 5px 6px 0px;
+    }
+    .main-bg {
+    margin: 10px 10px 0 10px;
+    }
+    header img {
+    height: 300px;
+    }
+    .left-hr {
+    width: 150px;
+    }
+    .right-hr {
+    margin: 0 13px 0 0; width: 150px;
+    }
+    .slog {
+    font: 13px Allur,Comic Sans MS; margin: -7px 5px 0 5%;
+    }
+    .service-image {
+    margin: 50px 10px 20px 50px;
+    }
+}
+
+@media (max-width: 425px){
+    .main-contact p {
+    font: 8px Allur,Comic Sans MS;     margin: 0 0 0px 0;
+    }
+    .main-contact a {
+    font: 5px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    margin: 0 auto;
+    }
+    .main-text p {
+    font: 8px Allur,Comic Sans MS;
+    }
+    .main-text {
+    font: 8px Allur,Comic Sans MS ;
+    }
+    .left-hr {
+    width: 130px;
+    }
+    .right-hr {
+    margin: 0 13px 0 0; width: 130px;
+    }
+    .service-image img {
+    margin: 0 10px 0 5px; max-height: 85px; max-width: 85px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 54px;
+    }
+    .color-block img {
+    max-height: 140px; max-width: 140px;
+    }
+    .color-block {
+    margin-right: 21px; margin-top: -230px;
+    }
+}
+
+@media (max-width: 375px){
+    .main-slogon p {
+    font: 11px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 9px Academi,Courier New;
+    }
+    .main-contact span {
+    font: 7px Allur,Comic Sans MS;
+    }
+    .main-contact a {
+    font: 4px Allur,Comic Sans MS;
+    }
+    .main-contact p {
+    font: 7px Allur,Comic Sans MS;
+    margin: 0 0 0px 0;
+    }
+    header img {
+    height: 280px;
+    }
+    .main-text {
+    font: 7px Allur,Comic Sans MS;
+    }
+    .main-text p {
+    font: 7.5px Allur,Comic Sans MS;
+    }
+    .left-hr {
+    width: 120px;
+    }
+    .right-hr {
+    margin: 0 9px 0 0; width: 120px;
+    }
+    .slog {
+    font: 11px Allur,Comic Sans MS; margin: -6px 5px 0 6%;
+    }
+    .service-image img {
+    margin: 0 8px 0px; max-height: 80px; max-width: 80px;
+    }
+    .service-image figure figcaption {
+    font: 8px Spike,Comic Sans MS;
+    }
+    .service-image {
+    margin: 50px 10px 20px 38px;
+    }
+    .contact span {
+    margin: -5px 5px 0 7%;
+    }
+    .inputText {
+    width: 80px; height: 23px; font: 100 7px Allur,Comic Sans MS;
+    }
+    textarea {
+    width: 185px; font: 100 8px AAllur,Comic Sans MS; height: 70px;
+    }
+    input[type="submit"] {
+    height: 25px; width: 110px; font: 9px BlinkMacSystemFont; padding: 3px;
+    }
+    .color-block img {
+    max-height: 130px; max-width: 130px;
+    }
+    .color-block {
+    margin-right: 8px; margin-top: -185px;
+    }
+    footer {
+    margin: 20px 0 0; padding: 20px 0 0;
+    }
+    footer h1 {
+    margin: 10px 0 10px;
+    }
+}
+
+@media (max-width: 320px){
+    header img {
+    height: 250px;
+    }
+    .main-slogon p {
+    font: 9px Academi,Courier New;
+    }
+    .main-slogon span {
+    font: italic 900 7px Academi,Courier New;
+    }
+    .main-text p {
+    font: 6.5px Allur,Comic Sans MS;
+    }
+    .main-contact span {
+    font: 6px Allur,Comic Sans MS; margin: 0 15% 0 1%;
+    }
+    .main-contact p {
+    font: 7px Allur,Comic Sans MS; margin: 0 15% 0 1%;
+    }
+    .main-contact a {
+    font: 3px Allur,Comic Sans MS; border-width: 5px 14px 4px 14px; margin: 5%;
+    }
+    .main-bg {
+    margin: 0px 10px 0 10px;
+    }
+    .left-hr {
+    width: 100px;
+    }
+    .right-hr {
+    margin: 0 5px 0 0; width: 100px;
+    }
+    .slog {
+    font: 10px Allur,Comic Sans MS; margin: -5px 5px 0 6%;
+    }
+    .service-image img {
+    margin: 0 8px 0px; max-height: 70px; max-width: 70px;
+    }
+    .service-image {
+    margin: 50px 10px 20px 26px;
+    }
+    .contact form {
+    margin: 50px 10px 0;
+    }
+    .inputText {
+    margin: 0px 10px 0px 0px;
+    }
+    textarea {
+    width: 174px; font: 100 8px AAllur,Comic Sans MS; height: 70px;
+    }
+    .color-block img {
+    max-height: 120px; max-width: 120px;
+    }
+    .color-block {
+    margin-right: 8px; margin-top: -192px;
+    }
+    .first {
+    margin-left: -40px; margin-right: 45px; max-height: 30px; max-width: 30px;
+    }
+    .last {
+    margin: 3px 0 3px -35px;
+    max-width: 45px;
+    }
+}

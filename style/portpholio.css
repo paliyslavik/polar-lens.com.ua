@@ -1,0 +1,22 @@
+*{
+    padding: 0px; margin: 0px;
+}
+.mainphoto{
+    display: inline-block; margin: 20px 15%;
+}
+.mainphoto img{
+    max-height: 25%; max-width: 25%; margin: -2px;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.mainphoto img:hover {
+  -webkit-filter: blur(1px); -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1);
+}
+@media (max-width: 768px){
+    .mainphoto{
+        margin: 20px 2%;
+    }
+}
